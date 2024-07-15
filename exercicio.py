@@ -83,12 +83,18 @@ list_all_tables()
 inserir_clientes('ze', 45237064094)
 inserir_clientes('juca', 25225647065)
 inserir_clientes('maria', 51096308010)
+inserir_clientes('joana', 64487084059)
 selecionar_cliente()
 
+
+
 #Inserindo Mercadorias
-inserir_mercadorias("Deo Colonia Homem Essence","199")
-inserir_mercadorias("Hidratante Corporal Todo Dia","85")
-inserir_mercadorias("Camiseta Masculina","49")
+inserir_mercadorias('Deo Colonia Homem Essence', 199)
+inserir_mercadorias('Hidratante Corporal Todo Dia', 85)   
+inserir_mercadorias('Camiseta Masculina', 49)
+inserir_mercadorias("Deo Colonia Homem ELO","199")
+inserir_mercadorias("Hidratante Corporal NativaSpa","85")
+inserir_mercadorias("Camiseta Feminina","49")
 selecionar_mercadoria()
 fechar_conexao()
 
